@@ -1,0 +1,118 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "Gabriel Alves",
+      "senha": "senha123",
+      "login": "gabriel"
+    }
+  ],
+  "perfil": [
+    {
+      "id": 1,
+      "descricao": "Programador"
+    }
+  ],
+  "rotina": [
+    {
+      "id": 1,
+      "descricao": "Editar Senha"
+    }
+  ],
+  "parametro": [
+    {
+      "id": 1,
+      "descricao": "Geral"
+    }
+  ],
+  "rota": [
+    {
+      "id": 1,
+      "descricao": "parametros",
+      "url": "/parametros",
+      "pai": 0,
+      "menu": 1,
+      "tipo": 2,
+      "icone": "mdi-office-building"
+    },
+    {
+      "id": 2,
+      "descricao": "Controle de Acesso",
+      "url": "/controle-de-acesso",
+      "pai": 0,
+      "menu": 1,
+      "tipo": 1,
+      "icone": "mdi-account-check",
+      "filhos": [
+        {
+          "id": 3,
+          "descricao": "Usuários",
+          "url": "/usuarios",
+          "pai": 1,
+          "menu": 1,
+          "tipo": 1,
+          "icone": "mdi-account-circle"
+        },
+        {
+          "id": 3,
+          "descricao": "Rotas",
+          "url": "/rotas",
+          "pai": 1,
+          "menu": 1,
+          "tipo": 1,
+          "icone": "mdi-routes"
+        }
+      ]
+    }
+  ],
+  "opcao": [
+    {
+      "id": 1,
+      "grupo": 1,
+      "item": 1,
+      "descricao": "Todas Opções"
+    },
+    {
+      "id": 2,
+      "grupo": 1,
+      "item": 2,
+      "descricao": "tipos de rotas"
+    },
+    {
+      "id": 3,
+      "grupo": 2,
+      "item": 2,
+      "descricao": "CRUD"
+    },
+    {
+      "id": 4,
+      "grupo": 1,
+      "item": 4,
+      "descricao": "Requisição"
+    }
+  ],
+  "perfil_usuario":[
+    {
+      "perfil": 1,
+      "usuario": 1
+    }
+  ],
+  "rotina_usuario":[
+    {
+      "rotina": 1,
+      "usuario": 1
+    }
+  ],
+  "rota_perfil":[
+    {
+      "perfil": 1,
+      "rota": 1
+    }
+  ],
+  "parametro_usuario":[
+    {
+      "parametro": 1,
+      "usuario": 1
+    }
+  ]
+}
